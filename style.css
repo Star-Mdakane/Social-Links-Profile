@@ -120,3 +120,15 @@ li  a:focus
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media (min-width: 38rem) {
+    section {
+    width: 90rem;
+    background-color: var(--pri-color);
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
